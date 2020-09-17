@@ -1,0 +1,33 @@
+.header__menu {
+    width: 20%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+@media screen and (max-width: 1024px) {
+    .header__menu {
+        font-size: 17px;
+    }    
+}
+
+@media screen and (max-width: 768px) {
+    .header__menu {
+        width: 30%;
+        font-size: 16px;
+    }    
+}
+
+@media screen and (max-width: 500px) {
+    .header__menu {
+        width: 50%;
+        font-size: 14px;
+    }    
+}
+
+@media screen and (max-width: 425px) {
+    .header__menu {
+        display: none;
+    }    
+}

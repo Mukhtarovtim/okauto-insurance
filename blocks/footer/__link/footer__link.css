@@ -1,0 +1,21 @@
+.footer__link {
+    text-decoration: none;
+    color: #37474f;
+    margin: 60px;
+}
+
+.footer__link:first-child {
+    margin-left: 0;
+}
+
+.footer__link:hover {
+    opacity: 0.8;
+    transition: ease-in-out 0.3s;
+}
+
+@media screen and (max-width: 400px) {
+    .footer__link {
+        margin-right: 20px;
+        font-size: 14px;
+    }    
+}

@@ -1,0 +1,11 @@
+.header__item {
+    margin: auto 20px;
+    text-decoration: none;
+    color: #37474f;
+}
+
+.header__item:hover {
+    opacity: 0.5;
+    transition: ease-in 0.5s;
+}
+
