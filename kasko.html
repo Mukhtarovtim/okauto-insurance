@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>КАСКО на OKauto</title>
+    <link rel="stylesheet" href="./pages/kasko.css">
+</head>
+<body>
+    <div class="pages">
+        <header class="header">
+            <img class="header__logo" alt="ОКавто" src="images/logo-80f193440b23fb9f7d0bc9df3e5d81a1 1.svg">
+            <nav class="header__menu">
+                <ul class="header__items">
+                    <li><a href="/ogpo.html" class="header__item">ОГПО</a></li>
+                    <li><a href="#" class="header__item header__item_active">КАСКО</a></li>
+                </ul>
+            </nav>
+            <img class="header__burger" src="./images/burger.svg" alt="бургер">
+        </header>
+        <main class="content">
+          <div class="content__paragraphs">
+            <p class="content__paragraph">КАСКО - это страхование собственного авто от различных рисков (угон, кража деталей, повреждения из-за стихийных бедствий или пожаров).</p>
+            <p class="content__paragraph">Оставьте заявку на КАСКО и получите лучшие предложения от лидеров страхового рынка!</p>
+          </div>
+          <div class="content__form">
+              <h1 class="content__title">Расчитать КАСКО</h1>
+              <fieldset class="form">
+                <label for="tel-number" class="content__item">Номер телефона</label>
+                <input type="tel" id='tel-number' name="tel-number" class="content__input" placeholder="+7 705 145 44 54" required>
+                
+                <label for="iin" class="content__item">ИИН</label>
+                <input type="text" class="content__input" id="iin" name="iin" placeholder="Ваш ИИН" required>
+                
+                <label for="car-number" class="content__item">Гос.номер авто</label>
+                <input type="text" class="content__input" id="car-number" name="car-number" placeholder="007 AMD 02" required>
+                
+                <label for="car-price" class="content__item">Стоимость авто (оценка)</label>
+                <input type="number" class="content__input" id='car-price' name="car-price" placeholder="Сколько стоит ваше авто" required>
+              </fieldset>    
+              <a class="content__button" href="#">Оставить заявку</a>        
+          </div>
+        </main>
+        <footer class="footer">
+            <ul class="footer__links">
+                <li><a href="#" class="footer__link">Оферта</a></li>
+                <li><a href="https://id.mkb.kz/#/esbd/home" target="_blank" class="footer__link">Проверить полис в ЕСБД</a></li>
+            </ul>
+        </footer>
+    </div>
+</body>
+</html>
