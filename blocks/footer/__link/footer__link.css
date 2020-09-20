@@ -2,6 +2,7 @@
     text-decoration: none;
     color: #37474f;
     margin: 60px;
+    transition: ease-in 0.3s;
 }
 
 .footer__link:first-child {

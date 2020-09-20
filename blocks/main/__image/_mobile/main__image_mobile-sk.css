@@ -1,6 +1,7 @@
 @media screen and (min-width: 500px) {
     .main__image_mobile-sk {
         display: none;
+        transition: ease-in 0.3s;
     }    
 }
 

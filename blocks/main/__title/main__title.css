@@ -4,6 +4,7 @@
     font-size: 50px;
     line-height: 60px;   
     margin: 0;
+    transition: ease-in 0.3s;
 }
 
 @media screen and (max-width: 1024px) {

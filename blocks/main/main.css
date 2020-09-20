@@ -5,6 +5,7 @@
   display: grid;
   grid-template-columns: 1fr 650px;
   gap: 30px;
+  transition: ease-in 0.3s;
 }
 
 @media screen and (max-width: 1200px) {
