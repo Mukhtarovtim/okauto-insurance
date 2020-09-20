@@ -13,6 +13,7 @@
 @import url('../blocks/main/__button/main__button.css');
 @import url('../blocks/main/__content/main__content.css');
 @import url('../blocks/main/__utp/main__utp.css');
+@import url('../blocks/main/__image/_mobile/main__image_mobile-sk.css');
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__links/footer__links.css');
 @import url('../blocks/footer/__link/footer__link.css');

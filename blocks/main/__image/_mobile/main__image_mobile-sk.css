@@ -1,0 +1,26 @@
+@media screen and (min-width: 500px) {
+    .main__image_mobile-sk {
+        display: none;
+    }    
+}
+
+@media screen and (max-width: 500px) {
+    .main__image_mobile-sk {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .main__image_mobile-sk {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .main__image_mobile-sk {
+        width: 100%;
+    }
+}

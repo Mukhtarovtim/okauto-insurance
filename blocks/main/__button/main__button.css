@@ -31,3 +31,9 @@
         font-size: 14px;
     }    
 }
+
+@media screen and (max-width: 500px) {
+    .main__button {
+        margin-bottom: 40px;
+    }    
+}

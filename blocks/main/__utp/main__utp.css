@@ -1,3 +1,10 @@
 .main__utp {
     font-weight: bold;
+    width: 80%;
 }
+
+@media screen and (max-width: 670px) {
+    .main__utp {
+      width: 50%;
+    }    
+  }
